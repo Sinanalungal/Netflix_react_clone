@@ -8,9 +8,9 @@ import { FaYoutube } from "react-icons/fa";
 function Footer() {
     return (
       <>
-      <div className="outside w-full flex justify-center align-middle mt-5">
+      <div className="outside w-full flex justify-center align-middle mt-14">
         <div className="inside w-[60%] text-zinc-500 h-[200px] font-semibold">
-            <div className="icons flex p-3">
+            <div className="icons flex p-3 text-white">
                 <FaFacebookF size={22} className="ml-6"/>
                 <FiInstagram size={23} className="ml-6"/>
                 <FaTwitter size={23} className="ml-6"/>
