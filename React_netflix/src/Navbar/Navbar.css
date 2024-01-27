@@ -1,0 +1,38 @@
+.navbar {
+    height: 70px;
+    position: fixed;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    z-index: 1; /* Set a high z-index value to ensure it stays above other elements */
+}
+
+/* .logo{
+    width: 90px;
+    left: 60px;
+    position:fixed;
+  
+
+} */
+/* .avthar{    
+    width: 30px;
+    right: 155px;
+    position:fixed;
+    top: 20px;
+    
+} */
+/* .nav-options ul{
+
+    display: flex;
+    flex-direction: row;
+    
+
+} */
+.nav-options li{
+    margin-left: 20px;
+}
+@media(max-width:909px){
+    .nav-options{
+        display: none;;
+    }
+}

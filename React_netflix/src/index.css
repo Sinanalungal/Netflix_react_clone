@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: black;
+}
+#nav {
+    transition: background-color 0.5s ease-in-out;
+}
+
+#nav.scrolled {
+    background-color: black;
+}

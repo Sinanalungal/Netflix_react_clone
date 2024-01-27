@@ -1,0 +1,31 @@
+.banner {
+    background-image: url('../../public/Interstellar.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.shade {
+    background-image: linear-gradient(transparent, black);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.shadetop {
+    background-image: linear-gradient( black,transparent);
+    position: absolute;
+    top:0;
+
+}
+.details {
+    margin-left: 70px;
+    width: 50%;
+    max-width: fit-content;
+    word-wrap: break-word;
+}
+
+.more-info:hover {
+    background: rgba(255, 255, 255, .1);
+}

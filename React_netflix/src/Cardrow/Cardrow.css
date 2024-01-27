@@ -1,0 +1,8 @@
+.cardsdiv img{
+    width: 240px;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.cardsdiv::-webkit-scrollbar{
+    display: none;
+}
